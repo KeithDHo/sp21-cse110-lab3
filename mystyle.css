@@ -1,0 +1,78 @@
+h1, h2, h3, p, ul, ol, form {
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+h1 {
+    color: rgb(10, 100, 200);
+    text-decoration: underline;
+    margin-left: 10 vmin;
+    background-color:snow;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    margin: 0pc 64pc 0pc 0pc;
+    display: inline;
+    position: static;
+}
+
+body {
+    background-color: #add8e6; /*changed background color*/ 
+    margin-top: 10px;
+    padding: 0px 1px 1px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entryBody {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.box{
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: auto;
+    display:inline-block;
+    height:auto;
+    width:auto;
+}
+
+@media screen and (min-width: 50em) {
+    .box {
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
+        border-radius: auto;
+        display:inline-block;
+        height:auto;
+        width:auto;
+    }
+
+}
+
+button:hover {
+    color: lightblue;
+}
+
+button:active {
+    color: red;
+}
+
+.footer {
+    background-color: hsl(0, 100, 100);
+    min-width: 10vw;
+    max-width: 50vw;
+    min-height: 5vh;
+    max-height: 8vh;
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
