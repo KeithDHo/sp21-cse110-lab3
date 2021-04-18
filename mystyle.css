@@ -1,20 +1,46 @@
-h1, h2, h3, p, ul, ol, form {
+* {
     font-family:'Courier New', Courier, monospace;
 }
 
+a[href="https://www.facebook.com/keith.ho.927/"],
+a[href="https://github.com/KeithDHo"],
+a[href="https://www.linkedin.com/in/keith-h-263215115/"]
+{
+    color:black;
+}
 
 h1 {
     color: rgb(10, 100, 200);
     text-decoration: underline;
     margin-left: 10 vmin;
-    background-color:snow;
+    background-color: lightcyan;
     padding-top: 5pt;
     padding-bottom: 5pt;
     padding-left: 5pt;
     padding-right: 5pt;
     margin: 0pc 64pc 0pc 0pc;
-    display: inline;
+    display: inline-block;
     position: static;
+}
+
+ul > li {
+    border: 5px solid lightcyan;
+}  
+
+h1 ~ p {
+    background-color: lightcyan;
+}
+
+h4 + p {
+    background-color: lightcyan;
+}   
+
+#one {
+    background-color: lightcyan;
+}
+
+span {
+    background-color: lightcyan;
 }
 
 body {
@@ -23,7 +49,7 @@ body {
     padding: 0px 1px 1px 0px;
 }
 
-.container {
+*.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
